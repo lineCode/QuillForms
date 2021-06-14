@@ -2,6 +2,7 @@
  * QuillForms Dependencies
  */
 import type { IconDescriptor, Icon as IconType } from '@quillforms/types';
+import { Icon, Dashicon } from '@quillforms/admin-components';
 
 /**
  * Internal Dependencies
@@ -11,7 +12,6 @@ import { getPlainExcerpt } from '@quillforms/rich-text';
 /**
  * WordPress Dependencies
  */
-import { Icon, Dashicon } from '@wordpress/components';
 import { blockDefault, plus } from '@wordpress/icons';
 import { useSelect } from '@wordpress/data';
 

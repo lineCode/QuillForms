@@ -1,11 +1,7 @@
 /**
  * QuillFomrs Dependencies
  */
-import { Button } from '@quillforms/admin-components';
-/**
- * WordPress Dependencies
- */
-import { Modal } from '@wordpress/components';
+import { Button, Modal } from '@quillforms/admin-components';
 
 /**
  * External Dependencies

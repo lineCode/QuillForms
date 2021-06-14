@@ -1,12 +1,12 @@
 /**
+ * QuillForms Dependencies
+ */
+import { Icon } from '@quillforms/admin-components';
+
+/**
  * WordPress Dependencies
  */
 import { useDispatch } from '@wordpress/data';
-
-/**
- * External Dependencies
- */
-import { Icon } from '@wordpress/components';
 import { close } from '@wordpress/icons';
 
 interface Props {

@@ -1,3 +1,4 @@
+// Forked from @wordpress/components.
 /**
  * External dependencies
  */

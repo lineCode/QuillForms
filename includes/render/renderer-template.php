@@ -1,4 +1,11 @@
 <?php
+/**
+ * Renderer template for single post type.
+ *
+ * @since 1.0.0
+ * @package QuillForms
+ */
+
 the_post();
 $form_id     = get_the_ID();
 $form_object = QF_Form_Renderer::prepare_form_object( $form_id );
@@ -94,7 +101,6 @@ switch ( $font_type ) {
 				.then(function(res) {
 					console.log(res);
 					if(res && res.success) {
-						console.log("ldmfkndfi");
 						wp.data.dispatch('quillForms/renderer-core').completeForm();
 					}
 					else {

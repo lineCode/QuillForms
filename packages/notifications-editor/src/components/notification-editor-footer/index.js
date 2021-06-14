@@ -1,14 +1,13 @@
 /**
  * QuillForms Dependencies
  */
-import { Button } from '@quillforms/admin-components';
+import { Button, Icon } from '@quillforms/admin-components';
 
 /**
  * WordPress Dependencies
  */
 import { useDispatch } from '@wordpress/data';
 import { createPortal } from '@wordpress/element';
-import { Icon } from '@wordpress/components';
 import { arrowLeft } from '@wordpress/icons';
 
 /**

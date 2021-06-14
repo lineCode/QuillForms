@@ -1,4 +1,4 @@
-import { Dashicon } from '@wordpress/components';
+import { Dashicon } from '@quillforms/admin-components';
 
 export type Icon = JSX.Element | React.FC | Dashicon.Icon;
 

@@ -1,9 +1,7 @@
 /**
  * QuillForms Dependencies
  */
-import {
-	CustomSelectControl
-} from '@wordpress/components';
+import { SelectControl } from '@quillforms/admin-components';
 
 /**
  * WordPress Dependencies
@@ -33,11 +31,11 @@ const DropdownLogicControl = ( {
 	const options = choices.map( ( choice, index ) => {
 		return {
 			key: choice.value,
-			name: choice.label ? choice.label : `Choice ${ index + 1 }`
-		}
-	})
+			name: choice.label ? choice.label : `Choice ${ index + 1 }`,
+		};
+	} );
 	return (
-		<CustomSelectControl
+		<SelectControl
 			className={ css`
 				margin-top: 10px;
 				margin-bottom: 10px;

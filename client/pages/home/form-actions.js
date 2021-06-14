@@ -2,11 +2,15 @@
  * QuillForms Dependencies
  */
 import { getNewPath, getHistory } from '@quillforms/navigation';
+import {
+	DropdownMenu,
+	MenuItem,
+	MenuGroup,
+} from '@quillforms/admin-components';
 
 /**
  * WordPress Dependencies
  */
-import { DropdownMenu, MenuItem, MenuGroup } from '@wordpress/components';
 import { moreHorizontal } from '@wordpress/icons';
 import { useDispatch } from '@wordpress/data';
 

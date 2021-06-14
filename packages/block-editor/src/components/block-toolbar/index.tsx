@@ -5,13 +5,12 @@ import {
 	__unstableTransforms as Transforms,
 	__unstableReactEditor as ReactEditor,
 } from '@quillforms/rich-text';
+import { Tooltip, Icon } from '@quillforms/admin-components';
 
 /**
  * WordPress Dependencies
  */
-import { Tooltip } from '@wordpress/components';
 import { useDispatch } from '@wordpress/data';
-import { Icon } from '@wordpress/components';
 
 /**
  * Internal Dependencies

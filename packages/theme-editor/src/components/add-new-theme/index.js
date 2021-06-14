@@ -1,8 +1,12 @@
 /**
+ * QuillForms Dependencies
+ */
+import { Icon } from '@quillforms/admin-components';
+
+/**
  * WordPress Dependencies
  */
 import { useDispatch } from '@wordpress/data';
-import { Icon } from '@wordpress/components';
 import { plus } from '@wordpress/icons';
 
 /**

@@ -1,7 +1,7 @@
 /**
  * QuillForms Dependencies
  */
-import { CustomSelectControl } from '@wordpress/components';
+import { SelectControl } from '@quillforms/admin-components';
 
 /**
  * WordPress Dependencies
@@ -30,7 +30,7 @@ const MultipleChoice = ( { attributes, value, setValue, removeCondition } ) => {
 		};
 	} );
 	return (
-		<CustomSelectControl
+		<SelectControl
 			className={ css`
 				margin-top: 10px;
 				margin-bottom: 10px;

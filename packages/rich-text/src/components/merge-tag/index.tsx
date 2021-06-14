@@ -2,11 +2,12 @@
  * QuillForms Dependencies
  */
 import type { IconDescriptor, Icon as IconType } from '@quillforms/types';
+import { Icon, Dashicon } from '@quillforms/admin-components';
+
 /**
  * WordPress Dependencies
  */
 import { useEffect } from '@wordpress/element';
-import { Icon, Dashicon } from '@wordpress/components';
 import { plus, close } from '@wordpress/icons';
 
 /**

@@ -8,6 +8,9 @@ import {
 	Button,
 	FontPicker,
 	TextControl,
+	__experimentalColorPicker as ColorPicker,
+	__experimentalComboColorPicker as ComboColorPicker,
+	PanelBody,
 } from '@quillforms/admin-components';
 import configApi from '@quillforms/config';
 import { getDefaultThemeProperties } from '@quillforms/utils';
@@ -16,7 +19,6 @@ import { getDefaultThemeProperties } from '@quillforms/utils';
  * WordPress Dependencies
  */
 import { useSelect, useDispatch } from '@wordpress/data';
-import { PanelBody } from '@wordpress/components';
 import { MediaUpload } from '@wordpress/media-utils';
 
 /**
@@ -28,8 +30,6 @@ import CustomizeFooter from '../customize-footer';
 /**
  * Internal Dependencies
  */
-import ColorPicker from '../color-picker';
-import ComboColorPicker from '../combo-color-picker';
 import ColorPreview from '../color-preview';
 
 const CustomizeThemePanel = () => {

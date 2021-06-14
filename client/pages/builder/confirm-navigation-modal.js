@@ -1,6 +1,6 @@
-import { Modal } from '@wordpress/components';
+import { Button, Modal } from '@quillforms/admin-components';
 import { css } from 'emotion';
-import { Button } from '@quillforms/admin-components';
+
 const ConfirmNavigationModal = ( { onCancel, onConfirm } ) => {
 	return (
 		<Modal

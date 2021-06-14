@@ -1,8 +1,7 @@
 /**
- * WordPress Dependencies
+ * QuillForms Dependencies
  */
-import { createSlotFill } from '@wordpress/components';
-import React from 'react';
+import { createSlotFill } from '@quillforms/admin-components';
 
 const { Fill, Slot } = createSlotFill( 'previewArea' );
 

@@ -1,12 +1,17 @@
+@import "../../../node_modules/@wordpress/components/build-style/style.css";
 @import "./admin-notices/style.scss";
+@import "./alpha-color-picker/style.scss";
 @import "./base-control/style.scss";
 @import "./block-icon-box/style.scss";
 @import "./button/style.scss";
 @import "./choices-bulk-btn/style.scss";
 @import "./choices-inserter/style.scss";
+@import "./color-picker/style.scss";
+@import "./combo-color-picker/style.scss";
 @import "./control-wrapper/style.scss";
 @import "./font-picker/style.scss";
 @import "./form-admin-bar/style.scss";
+@import "./gradient-picker/style.scss";
 @import "./select-control/style.scss";
 @import "./share-form-modal/style.scss";
 @import "./text-control/style.scss";

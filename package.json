@@ -103,7 +103,7 @@
 		"@types/sprintf-js": "1.1.2",
 		"@types/tinycolor2": "1.4.2",
 		"@types/uuid": "7.0.2",
-		"@types/wordpress__components": "9.8.6",
+		"@types/wordpress__components": "^9.8.6",
 		"@types/wordpress__data": "4.6.9",
 		"@types/wordpress__element": "2.14.1",
 		"@types/wordpress__plugins": "2.3.7",

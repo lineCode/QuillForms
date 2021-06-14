@@ -1,3 +1,4 @@
+// Typescript supported components
 export { default as AdminNotices } from './admin-notices';
 export { default as __experimentalBaseControl } from './base-control';
 export { default as BlockIconBox } from './block-icon-box';
@@ -16,3 +17,11 @@ export { default as Logo } from './logo';
 export { default as ToggleControl } from './toggle-control';
 export { default as SelectControl } from './select-control';
 export { default as TextControl } from './text-control';
+
+// Typescript unsupported components
+
+export { default as __experimentalComboColorPicker } from './combo-color-picker';
+export { default as __experimentalColorPicker } from './color-picker';
+
+// WordPress components
+export * from './wp';

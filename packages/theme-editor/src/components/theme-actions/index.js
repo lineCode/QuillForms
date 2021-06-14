@@ -1,8 +1,16 @@
 /**
+ * QuillForms Dependencies
+ */
+import {
+	DropdownMenu,
+	MenuGroup,
+	MenuItem,
+} from '@quillforms/admin-components';
+
+/**
  * WordPress Dependencies
  */
 import { useDispatch } from '@wordpress/data';
-import { DropdownMenu, MenuGroup, MenuItem } from '@wordpress/components';
 import { moreHorizontal } from '@wordpress/icons';
 
 const ThemeActions = ( { id } ) => {

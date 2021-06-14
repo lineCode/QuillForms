@@ -85,7 +85,7 @@ const ColorPicker = ( { value, onChange } ) => {
 		return hex;
 	}
 	return (
-		<div className="admin-components-color-picker">
+		<div className="admin-components-alpha-color-picker">
 			<ColorPalette
 				colors={ colors }
 				value={ value }

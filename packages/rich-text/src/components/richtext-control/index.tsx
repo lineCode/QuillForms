@@ -1,4 +1,9 @@
 /**
+ * QuillForms Dependencies
+ */
+import { Icon } from '@quillforms/admin-components';
+
+/**
  * WordPress Dependencies
  */
 import {
@@ -10,7 +15,6 @@ import {
 } from '@wordpress/element';
 import { autop } from '@wordpress/autop';
 import { plusCircle } from '@wordpress/icons';
-import { Icon } from '@wordpress/components';
 
 /**
  * External Dependencies

@@ -13,7 +13,19 @@
 	// expand this array with files which can be type-checked. At some point in
 	// the future, this can be simplified to an `includes` of `src/**/*`.
 	"include": [
-		"src/index.ts",
-		"src/**/*"
+		"src/**/*.tsx",
+		"src/choices-inserter/*.ts",
+		"src/choices-bulk-btn/*.ts",
+		"src/droppable/*",
+		"src/draggable/*",
+		"src/drag-drop-context/*",
+		"src/wp/*",
+	],
+	"exclude": [
+		"src/alpha-color-picker/*",
+		"src/circular-option-picker/*",
+		"src/color-palette/*",
+		"src/combo-color-picker/*",
+		"src/gradient-picker/*"
 	]
 }

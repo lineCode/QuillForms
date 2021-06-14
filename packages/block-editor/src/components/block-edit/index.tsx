@@ -1,7 +1,7 @@
 /**
  * QuillForms Dependencies
  */
-import { Button } from '@quillforms/admin-components';
+import { Button, Modal } from '@quillforms/admin-components';
 import {
 	__experimentalEditor as TextEditor,
 	__unstableHtmlSerialize as serialize,
@@ -13,7 +13,6 @@ import type { BlockAttributes } from '@quillforms/types';
 /**
  * WordPress Dependencies
  */
-import { Modal } from '@wordpress/components';
 import { useState, useCallback, useMemo, useEffect } from '@wordpress/element';
 import { useSelect, useDispatch } from '@wordpress/data';
 

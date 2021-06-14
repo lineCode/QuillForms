@@ -2,11 +2,7 @@
  * WordPress Dependencies
  */
 import apiFetch from '@wordpress/api-fetch';
-
-/**
- * React
- */
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from '@wordpress/element';
 
 /**
  * External Dependencies

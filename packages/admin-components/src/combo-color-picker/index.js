@@ -1,7 +1,6 @@
 /**
  * QuillForms Dependencies
  */
-import { Button } from '@quillforms/admin-components';
 
 /**
  * WordPress Dependencies
@@ -12,8 +11,9 @@ import { useState, useEffect, Fragment } from '@wordpress/element';
  * Internal Dependencies
  */
 import { isSolid, isGradient } from './utils';
-import GradientPicker from '../gradient-picker/index.js';
-import ColorPicker from '../color-picker';
+import GradientPicker from '../gradient-picker';
+import Button from '../button';
+import ColorPicker from '../alpha-color-picker';
 
 const CompoColorPicker = ( { color, setColor, defaultVal = '#000' } ) => {
 	const [ activeSwitcher, setActiveSwitcher ] = useState( null );

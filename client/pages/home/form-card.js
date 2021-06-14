@@ -1,7 +1,16 @@
 /**
+ * QuillForms Dependencies
+ */
+import {
+	Card,
+	CardBody,
+	CardDivider,
+	CardHeader,
+} from '@quillforms/admin-components';
+
+/**
  * WordPress Dependencies
  */
-import { Card, CardBody, CardDivider, CardHeader } from '@wordpress/components';
 import { memo, useState } from '@wordpress/element';
 
 /**

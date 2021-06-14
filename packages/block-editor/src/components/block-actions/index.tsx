@@ -1,8 +1,17 @@
 /**
+ * QuillForms Dependencies
+ */
+import {
+	DropdownMenu,
+	MenuGroup,
+	MenuItem,
+	Icon,
+} from '@quillforms/admin-components';
+
+/**
  * WordPress Dependencies
  */
 import { useDispatch } from '@wordpress/data';
-import { DropdownMenu, MenuGroup, MenuItem, Icon } from '@wordpress/components';
 import { trash } from '@wordpress/icons';
 import React from 'react';
 

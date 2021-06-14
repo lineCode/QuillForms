@@ -5,6 +5,7 @@
 		"declarationDir": "build-types"
 	},
 	"references": [
+		{"path": "../admin-components"},
 		{"path": "../types" },
 		{"path": "../builder-panels"},
 		{"path": "../rich-text"}
